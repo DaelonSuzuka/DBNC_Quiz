@@ -73,7 +73,7 @@ int main(void) {
     printf("\n");
 
     squaresFound = get_squares(100, 97, squares, MAX_SQUARES);
-    printf("n=9, m=9, found %ld squares:\n", squaresFound);
+    printf("n=100, m=97, found %ld squares:\n", squaresFound);
     if (squaresFound == MAX_SQUARES) {
         printf("Filled the output array, results invalid\r\n");
     }
