@@ -28,5 +28,8 @@ n=0, m=5, found -1 squares:
 Input dimension of 0 doesn't make any sense.
 ```
 
-I couldn't answer question 2, but I documented my approach and thought process in [question_2.md](question_2.md).
+~~I couldn't answer question 2, but I documented my approach and thought process in [question_2.md](question_2.md).~~
 
+After some extra time thinking about it, I decided to follow a hunch that this was a baseN encoding scheme with a custom cipher. A straightforward genetic algorithm found a custom base-62 cipher, `C7xicPMGvzAZyTNodmwnV5D3B6H0Oup8E21W9sqLQX4YjSeUhIRJgafFtrKlbk`, which successfully converts the input column into the output column.
+
+The code for this is in [question_2.ipynb](question_2.ipynb).
