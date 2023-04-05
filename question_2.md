@@ -10,6 +10,6 @@
 
 ~~There are a number of contiguous values in the input column, but I wasn't able to make any sort of useful association to thier outputs.~~
 
-This could be as simple as a custom cipher ~~or particular series of math operators, but the solution space for either is absolutely massive and I don't know any good strategies for narrowing it down.~~ **and a genetic algorithm lets us search this area in about 30 seconds**.
+This could be as simple as a custom cipher ~~or particular series of math operators, but the solution space for either is absolutely massive and I don't know any good strategies for narrowing it down.~~ **and a genetic algorithm lets us find it in about 30 seconds**.
 
 ~~Whatever this algorithm is, I don't believe it's suitable for serious cryptographic use due to the low entropy of the output, and I have trouble imagining a useful program that would require such a transformation.~~
